@@ -79,4 +79,5 @@ while True:
 print(nome)
 IMC(validaMasculino_ou_Feminino(), peso, altura)
 
-#mudei
+
+#"Toma la enta"
