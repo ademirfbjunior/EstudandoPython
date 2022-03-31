@@ -1,19 +1,33 @@
 while True:
-    valor =int(input("Digite um valor: "))
-    j=1
+    valor = int(input("Digite um valor: "))
     resposta = ""
-    for i in range (valor-1):
-        if(j <= valor):
-            print("\n Valor: ",valor,"\n J = ",j)
-            resposta = "Triangulo"
-            valor -= j
-            j+=1
-            print("\n Valor: ",valor,"\n J = ",j)
-            
-             
+    if valor == 1:
+        resposta = resposta = """ 
+            -------------------------
+            |  não é um  Triangulo  |
+            ------------------------- 
+            """
+    else:
+        for i in range(valor):
+            i += 1
+            if (i) <= valor:
+                resposta = """ 
+                ---------------
+                |  Triangulo  |
+                ---------------
+                """
+                valor -= (i)
+                i -= 1
 
-        else:
-            break
-            resposta = "nao e triangulo"
-            
+            else:
+                if valor == 0:
+                    break
+                else:
+                    resposta = resposta = """ 
+                -------------------------
+                |  não é um  Triangulo  |
+                ------------------------- 
+                """
+                    break
+    print()
     print(resposta)
