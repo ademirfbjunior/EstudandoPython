@@ -18,6 +18,7 @@ while True:
                 """
                 valor -= (i)
                 i -= 1
+                print("i=",i,"\nvalor=", valor)
 
             else:
                 if valor == 0:
