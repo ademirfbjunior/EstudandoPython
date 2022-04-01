@@ -1,7 +1,11 @@
 class metodos:
     def __init__(self):
         pass
-    def trianguloBurca (valor):
+    def ValidaTrianguloBolinhasDeGudi(valor):
+        meuTexto = ""
+        bolinhas = []
+        bolinhas[1] = "*"
+    
         resposta = ""
         if valor == 1:
             resposta = resposta = """ 
@@ -9,6 +13,7 @@ class metodos:
                 |  não é um  Triangulo  |
                 ------------------------- 
                 """
+            meuTexto = bolinhas 
         else:
             for i in range(valor):
                 i += 1
@@ -20,8 +25,8 @@ class metodos:
                     """
                     valor -= (i)
                     i -= 1
-                    print("i=",i,"\nvalor=", valor)
-
+                    
+                    meuTexto += (" "*i) + """\ """ + bolinhas*i+ "/\n"
                 else:
                     if valor == 0:
                         break
@@ -32,6 +37,5 @@ class metodos:
                     ------------------------- 
                     """
                         break
-            return resposta
-
-
+            print(meuTexto)        
+            return resposta 
