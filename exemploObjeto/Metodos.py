@@ -39,3 +39,4 @@ class metodos:
                         break
             print(meuTexto)        
             return resposta 
+ #testando um negocio
