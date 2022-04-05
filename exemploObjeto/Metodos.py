@@ -39,3 +39,14 @@ class metodos:
                         break
             print(meuTexto)        
             return resposta 
+aaaAAaaaAAaaaAAaaaAAaaaAAaaaAA
+aaaAA
+aaaAA
+
+aaaAA
+aaaAA
+aaaAA
+aaaAA
+aaaAA
+aaaAA
+aaaAA
