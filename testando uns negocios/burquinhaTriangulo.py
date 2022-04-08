@@ -32,4 +32,4 @@ while True:
                     break
     print()
     print(resposta)
-#
+##x 
