@@ -1,3 +1,4 @@
+#arquivo principal onde a magica acontece
 from numeroExtenso import NumeroExtenso
 from metodos import *
 while True:
