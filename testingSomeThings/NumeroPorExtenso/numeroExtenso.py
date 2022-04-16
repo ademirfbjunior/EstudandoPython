@@ -1,3 +1,4 @@
+#Class modulo, voltada pra a execução de numeros por extenso
 class NumeroExtenso:
     def __init__(self):
         pass
@@ -77,9 +78,9 @@ class NumeroExtenso:
         # 200
         elif valor < 300:
             if valor == 200:
-                return "dozentos"
+                return "duzentos"
             else:
-                return "dozentos e " + self.unidade_dezena(dezena_unidade)
+                return "duzentos e " + self.unidade_dezena(dezena_unidade)
         # 300
         elif valor < 400:
             if valor == 300:
