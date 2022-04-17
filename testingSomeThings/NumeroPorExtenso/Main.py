@@ -1,7 +1,10 @@
 #arquivo principal onde a magica acontece
 from numeroExtenso import NumeroExtenso
 from metodos import *
+
+#Criando loop para testar varias vezes
 while True:
+    #loop para tratar expect e recebendo o valor em input
     while True:
 
         try:
@@ -21,8 +24,15 @@ while True:
         except:
             print("\nValor digitado não Aceito !\nDigite numeros inteiros de 0 à 999\n")
 
+
+
     n1 = NumeroExtenso()
 
     result = n1.numeroExtensoResult(valor)
 
     print(result)
+
+# #testando todos os numeros
+# for i in range(1000):
+#     print(NumeroExtenso().numeroExtensoResult(i))
+
