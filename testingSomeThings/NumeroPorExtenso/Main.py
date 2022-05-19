@@ -35,5 +35,5 @@ while True:
 # #testando todos os numeros
 # for i in range(1000):
 #     print(NumeroExtenso().numeroExtensoResult(i))
-#testing if git's works in my new laptop
+
 
