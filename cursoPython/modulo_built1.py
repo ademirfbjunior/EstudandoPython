@@ -18,4 +18,10 @@ print("Utilizando math.sqrt\n", math.sqrt(16))
 import time
 
 #time.localtime() horario, data e contagem de tempo
-print("\nUtilizando time.localTime", time.localtime())
+print("\nUtilizando time.localTime\n", time.localtime())
+
+#Horas
+print("\nUtlizando time.localtime().tm_hour\n", time.localtime().tm_hour)
+
+#minutos
+print("\nUtlizando time.localtime().tm_min\n", time.localtime().tm_min)
